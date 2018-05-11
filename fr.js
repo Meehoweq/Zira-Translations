@@ -120,9 +120,6 @@ module.exports = {
     }, {
       name: 'Combien de rôles peut contenir un message?',
       value: 'Discord limite à 20 émojis/réactions à la fois par message, donc 20 rôles au maximum.',
-    }, { 
-	  name: 'Mon serveur est sous liste-noire (blacklisté), qu\'est-ce que je peux faire pour l\'en enlever?',
-	  value: 'Votre serveur a été blacklisté car 80% ou plus de votre membres sont des bots, c\'est comme celà pour économiser les ressources. Il vous faut soit inviter des personnes soit supprimer des bots pour que votre serveur soit retiré de la liste noire. Une fois que vous avez fait celà veuillez nous faire signe dans #support et lorsque @Hazed SPaCEx sera disponible il retirera votre serveur de la liste noire.',
     }],
   },
   join: {
