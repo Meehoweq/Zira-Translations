@@ -54,7 +54,7 @@ module.exports = {
     title: 'Config',
     currentChannel: 'Current Channel:',
     setChannel: 'Set a channel with',
-    currentMessage: 'CurrentMessage:',
+    currentMessage: 'Current Message:',
     setMessage: 'Set a message with',
     roles: 'Roles setup:',
     rolesView: ' - view them with ',
