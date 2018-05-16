@@ -38,8 +38,8 @@ module.exports = {
       once: 'ajout d\'un rôle ne pouvant être ajouté qu\'une seule fois\n',
       calc: 'calculatrice\n',
       purge: 'supprimer jusqu\'à 100 messages\n',
-      config: 'view the guild\'s config\n',
-      prefix: 'change the guild\'s prefix\n',
+      config: 'Voir la configuration du serveur\n',
+      prefix: 'Changement du préfix\n',
     },
     categories: {
       role: 'Rôles',
@@ -52,9 +52,9 @@ module.exports = {
     news: 'Nouveautés',
   },
   prefix: {
-    help: 'prefix [prefix]** ~~-~~ set the guild\'s prefix\n\n`z/` and <@275813801792634880> will still be usable',
-    set: 'Prefix set to ',
-    error: 'Prefix has to be between 1-10 characters and contain one of these characters, `.` `/` `?` `[` `]` `\\` `<` `>` `-` `=` `+` `*` `^` `$` `!`',
+    help: 'prefix [prefix]** ~~-~~ définit le préfix\n\n`z/` et <@275813801792634880> restera toujours utilisable',
+    set: 'Prefix définit à ',
+    error: 'Le préfix doit contenir entre 1-10 caractères et doit contenir un de ces caractères, `.` `/` `?` `[` `]` `\\` `<` `>` `-` `=` `+` `*` `^` `$` `!`',
   },
   config: {
     title: 'Configuration',
@@ -73,8 +73,8 @@ module.exports = {
     message: 'Message:',
     suggestionChannel: 'Salon des suggestions:',
     submitChannel: 'Salon d\'envoi des suggestions:',
-    prefix: 'Prefix:',
-    setPrefix: 'Set a prefix with',
+    prefix: 'Préfix:',
+    setPrefix: 'Changez le préfix avec la commande',
   },
   channel: {
     help: 'channel #channel** ~~-~~ définit le salon qui va être utilisé',
