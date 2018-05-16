@@ -39,6 +39,7 @@ module.exports = {
       calc: 'rekenmachine\n',
       purge: 'maximaal 100 berichten wissen\n',
       config: 'view the guilds\'s config\n',
+      prefix: 'change the guild\'s prefix\n',
     },
     categories: {
       role: 'Rollen',
@@ -49,6 +50,11 @@ module.exports = {
     linksTitle: 'Koppelingen',
     links: '[Gids aan opstelling Zira](https://demo.zira.pw)\n[Ondersteuning gilde](https://zira.pw/support)\n[Zira\'s Dashboard](https://zira.pw)\n[Doneer van Zira actief houden](https://www.patreon.com/HazedSPaCEx)\n[Vertaal Zira](https://github.com/HazedSPaCEx/Zira-Translations)',
     news: 'Nieuws',
+  },
+  prefix: {
+    help: 'prefix [prefix]** ~~-~~ set the guild\'s prefix\n\n`z/` and <@275813801792634880> will still be usable',
+    set: 'Prefix set to ',
+    error: 'Prefix has to be between 1-10 characters and contain one of these characters, `.` `/` `?` `[` `]` `\\` `<` `>` `-` `=` `+` `*` `^` `$` `!`',
   },
   config: {
     title: 'Config',
@@ -67,6 +73,8 @@ module.exports = {
     message: 'Message:',
     suggestionChannel: 'Suggestion Channel:',
     submitChannel: 'Submit Channel:',
+    prefix: 'Prefix:',
+    setPrefix: 'Set a prefix with',
   },
   channel: {
     help: 'channel #channel** ~~-~~ stel het kannal dat wordt gebruikt',

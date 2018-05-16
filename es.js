@@ -39,6 +39,7 @@ module.exports = {
       calc: 'calculadora\n',
       purge: 'borra hasta 100 mensajes\n',
       config: 'ver los ajustes del servidor\n',
+      prefix: 'change the guild\'s prefix\n',
     },
     categories: {
       role: 'Roles',
@@ -49,6 +50,11 @@ module.exports = {
     linksTitle: 'Enlaces',
     links: '[Guía para configurar a Zira](https://demo.zira.pw)\n[Servidor de ayuda](https://zira.pw/support)\n[Dashboard de Zira](https://zira.pw)\n[Dona para que Zira siga funcionando](https://www.patreon.com/HazedSPaCEx)\n[Traduce a Zira](https://github.com/HazedSPaCEx/Zira-Translations)',
     news: 'News',
+  },
+  prefix: {
+    help: 'prefix [prefix]** ~~-~~ set the guild\'s prefix\n\n`z/` and <@275813801792634880> will still be usable',
+    set: 'Prefix set to ',
+    error: 'Prefix has to be between 1-10 characters and contain one of these characters, `.` `/` `?` `[` `]` `\\` `<` `>` `-` `=` `+` `*` `^` `$` `!`',
   },
   config: {
     title: ' - Ajustes',
@@ -67,6 +73,8 @@ module.exports = {
     message: 'Mensaje:',
     suggestionChannel: 'Canal de sugerencias:',
     submitChannel: 'Canal de envíos:',
+    prefix: 'Prefix:',
+    setPrefix: 'Set a prefix with',
   },
   channel: {
     help: 'channel #canal** ~~-~~ establece el canal que será usado',
@@ -92,7 +100,8 @@ module.exports = {
   },
   toggle: {
     help: 'toggle [emoji] [@rol | nombre del rol]** ~~-~~ añade un rol con un emoji al mensaje establecido',
-    image: 'https://stuff.zira.pw/files/1524932965273.gif', /* I will replace this with a gif that is fast as my internet and laptop is slow */
+    image: 'https://stuff.zira.pw/files/1524932965273.gif',
+    /* I will replace this with a gif that is fast as my internet and laptop is slow */
   },
   perm: {
     noPerm: 'Tienes que ser el dueño del servidor o tener el permiso `Administrar Roles` para usar estos comandos.',
