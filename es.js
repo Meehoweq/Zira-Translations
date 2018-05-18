@@ -39,7 +39,7 @@ module.exports = {
       calc: 'calculadora\n',
       purge: 'borra hasta 100 mensajes\n',
       config: 'ver los ajustes del servidor\n',
-      prefix: 'change the guild\'s prefix\n',
+      prefix: 'cambia el prefijo del servidor\n',
     },
     categories: {
       role: 'Roles',
@@ -52,9 +52,9 @@ module.exports = {
     news: 'News',
   },
   prefix: {
-    help: 'prefix [prefix]** ~~-~~ set the guild\'s prefix\n\n`z/` and <@275813801792634880> will still be usable',
-    set: 'Prefix set to ',
-    error: 'Prefix has to be between 1-10 characters and contain one of these characters, `.` `/` `?` `[` `]` `\\` `<` `>` `-` `=` `+` `*` `^` `$` `!`',
+    help: 'prefix [prefijo]** ~~-~~ establece el prefijo del servidor\n\n`z/` y <@275813801792634880> aún serán usables',
+    set: 'Prefijo establecido a ',
+    error: 'El prefijo debe tener de 1 a 10 caracteres y contener uno de estos caracteres, `.` `/` `?` `[` `]` `\\` `<` `>` `-` `=` `+` `*` `^` `$` `!`',
   },
   config: {
     title: ' - Ajustes',
@@ -73,8 +73,8 @@ module.exports = {
     message: 'Mensaje:',
     suggestionChannel: 'Canal de sugerencias:',
     submitChannel: 'Canal de envíos:',
-    prefix: 'Prefix:',
-    setPrefix: 'Set a prefix with',
+    prefix: 'Prefijo:',
+    setPrefix: 'Establece un prefijo con',
   },
   channel: {
     help: 'channel #canal** ~~-~~ establece el canal que será usado',
