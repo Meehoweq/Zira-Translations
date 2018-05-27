@@ -97,7 +97,7 @@
   },
   "premium": {
     "premium": "Get Premium",
-    "amount":"Amount",
+    "amount":"Amount. Every $2 is 30 days",
     "guild":"Guild",
     "buy": "Buy",
     "features":"<li>18 toggled roles instead of 9</li><li>Access to set a submit channel</li><li>Early access to new features</li><li>More to come</li>",
