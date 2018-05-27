@@ -8,7 +8,7 @@ module.exports = {
   unknownRole: 'Rol desconocido.',
   unknownMessage: 'Mensaje desconocido.',
   unknownEmoji: 'Emoji desconocido.',
-  premium: 'This feature is [donor](https://zira.pw/premium) only.',
+  premium: 'Esta característica es solo para [donantes](https://zira.pw/premium).',
   noChannel: ['Por favor establece un canal primero con **', 'canal**.'],
   noMessage: ['Por favor establece un mensaje para usar con **', 'message**.'],
   help: {
@@ -49,7 +49,7 @@ module.exports = {
       misc: 'Misceláneos',
     },
     linksTitle: 'Enlaces',
-    links: '[Guía para configurar a Zira](https://demo.zira.pw)\n[Servidor de ayuda](https://zira.pw/support)\n[Dashboard de Zira](https://zira.pw)\n[Get Premium](https://zira.pw/premium)\n[Traduce a Zira](https://github.com/HazedSPaCEx/Zira-Translations)',
+    links: '[Guía para configurar a Zira](https://demo.zira.pw)\n[Servidor de ayuda](https://zira.pw/support)\n[Dashboard de Zira](https://zira.pw)\n[Consigue Premium](https://zira.pw/premium)\n[Traduce a Zira](https://github.com/HazedSPaCEx/Zira-Translations)',
     news: 'News',
   },
   prefix: {
@@ -77,8 +77,8 @@ module.exports = {
     prefix: 'Prefijo:',
     setPrefix: 'Establece un prefijo con',
     premium: 'Premium:',
-    expire: 'Expires ',
-    buy: 'Buy [Premium](https://zira.pw/premium)',
+    expire: 'Expira en ',
+    buy: 'Comprar [Premium](https://zira.pw/premium)',
   },
   channel: {
     help: 'channel #canal** ~~-~~ establece el canal que será usado',
@@ -105,8 +105,8 @@ module.exports = {
   toggle: {
     help: 'toggle [emoji] [@rol | nombre del rol]** ~~-~~ añade un rol con un emoji al mensaje establecido',
     image: 'https://stuff.zira.pw/files/1524932965273.gif',
-    limit: 'You have reached the limit of 9 toggled roles. You can increase this limit to 18 by [donating](https://zira.pw/premium)',
-    limit18: 'You have reached the limit of 18 toggled roles.',
+    limit: 'Haz alcanzado el límite de 9 roles alternables. Puedes incrementar este límite a 18 [donando](https://zira.pw/premium)',
+    limit18: 'Haz alcanzado el límite de 18 roles alternables.',
   },
   perm: {
     noPerm: 'Tienes que ser el dueño del servidor o tener el permiso `Administrar Roles` para usar estos comandos.',
