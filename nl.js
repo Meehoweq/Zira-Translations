@@ -8,6 +8,7 @@ module.exports = {
   unknownRole: 'De rol van het onbekend.',
   unknownMessage: 'Onbekend bericht.',
   unknownEmoji: 'Onbekende emoji.',
+  premium: 'This feature is [donor](https://zira.pw/premium) only.',
   noChannel: ['Stel een kanaal eerst met **', 'channel**.'],
   noMessage: ['Stel een bericht om te gebruiken met **', 'message**.'],
   help: {
@@ -48,7 +49,7 @@ module.exports = {
       misc: 'Diversen',
     },
     linksTitle: 'Koppelingen',
-    links: '[Gids aan opstelling Zira](https://demo.zira.pw)\n[Ondersteuning gilde](https://zira.pw/support)\n[Zira\'s Dashboard](https://zira.pw)\n[Doneer van Zira actief houden](https://www.patreon.com/HazedSPaCEx)\n[Vertaal Zira](https://github.com/HazedSPaCEx/Zira-Translations)',
+    links: '[Gids aan opstelling Zira](https://demo.zira.pw)\n[Ondersteuning gilde](https://zira.pw/support)\n[Zira\'s Dashboard](https://zira.pw)\n[Get Premium](https://zira.pw/premium)\n[Vertaal Zira](https://github.com/HazedSPaCEx/Zira-Translations)',
     news: 'Nieuws',
   },
   prefix: {
@@ -75,6 +76,9 @@ module.exports = {
     submitChannel: 'Submit Channel:',
     prefix: 'Prefix:',
     setPrefix: 'Set a prefix with',
+    premium: 'Premium:',
+    expire: 'Expires ',
+    buy: 'Buy [Premium](https://zira.pw/premium)',
   },
   channel: {
     help: 'channel #channel** ~~-~~ stel het kannal dat wordt gebruikt',
@@ -100,7 +104,9 @@ module.exports = {
   },
   toggle: {
     help: 'toggle [emoji] [@role | role name]** ~~-~~ een rol met een emoji toevoegen aan het bericht instellen',
-    image: 'https://stuff.zira.pw/files/1524932965273.gif', /* Ik zal dit vervangen door een gif dat is snel als mijn internet en laptop is traag */
+    image: 'https://stuff.zira.pw/files/1524932965273.gif',
+    limit: 'You have reached the limit of 9 toggled roles. You can increase this limit to 18 by [donating](https://zira.pw/premium)',
+    limit18: 'You have reached the limit of 18 toggled roles.',
   },
   perm: {
     noPerm: 'U moet de eigenaar van de gilde, of de `MANAGE_ROLES` permanent als deze opdrachten wilt gebruiken.',

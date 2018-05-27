@@ -8,6 +8,7 @@ module.exports = {
   unknownRole: 'Unknown role.',
   unknownMessage: 'Unknown message.',
   unknownEmoji: 'Unknown emoji.',
+  premium: 'This feature is [donor](https://zira.pw/premium) only.',
   noChannel: ['Please set a channel first with **', 'channel**.'],
   noMessage: ['Please set a message to use with **', 'message**.'],
   help: {
@@ -48,7 +49,7 @@ module.exports = {
       misc: 'Miscellaneous',
     },
     linksTitle: 'Links',
-    links: '[Guide to setup Zira](https://demo.zira.pw)\n[Support Guild](https://zira.pw/support)\n[Zira\'s Dashboard](https://zira.pw)\n[Donate to keep Zira running](https://www.patreon.com/HazedSPaCEx)\n[Translate Zira](https://github.com/HazedSPaCEx/Zira-Translations)',
+    links: '[Guide to setup Zira](https://demo.zira.pw)\n[Support Guild](https://zira.pw/support)\n[Zira\'s Dashboard](https://zira.pw)\n[Get Premium](https://zira.pw/premium)\n[Translate Zira](https://github.com/HazedSPaCEx/Zira-Translations)',
     news: 'News',
   },
   prefix: {
@@ -75,6 +76,9 @@ module.exports = {
     submitChannel: 'Submit Channel:',
     prefix: 'Prefix:',
     setPrefix: 'Set a prefix with',
+    premium: 'Premium:',
+    expire: 'Expires ',
+    buy: 'Buy [Premium](https://zira.pw/premium)',
   },
   channel: {
     help: 'channel #channel** ~~-~~ set the channel that will be used',
@@ -100,7 +104,9 @@ module.exports = {
   },
   toggle: {
     help: 'toggle [emoji] [@role | role name]** ~~-~~ add a role with an emoji to the set message',
-    image: 'https://stuff.zira.pw/files/1524932965273.gif', /* I will replace this with a gif that is fast as my internet and laptop is slow */
+    image: 'https://stuff.zira.pw/files/1524932965273.gif',
+    limit: 'You have reached the limit of 9 toggled roles. You can increase this limit to 18 by [donating](https://zira.pw/premium)',
+    limit18: 'You have reached the limit of 18 toggled roles.',
   },
   perm: {
     noPerm: 'You need be the owner of the guild, or have the `MANAGE_ROLES` perm to use these commands.',

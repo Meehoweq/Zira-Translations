@@ -8,6 +8,7 @@ module.exports = {
   unknownRole: 'Rôle introuvable.',
   unknownMessage: 'Message introuvable.',
   unknownEmoji: 'Emoji inconnu.',
+  premium: 'This feature is [donor](https://zira.pw/premium) only.',
   noChannel: ['Tout d\'abord veuillez configurer un salon en utilisant **', 'channel**.'],
   noMessage: ['Veuillez définir un message à utiliser en utilisant **', 'message**.'],
   help: {
@@ -48,7 +49,7 @@ module.exports = {
       misc: 'Divers',
     },
     linksTitle: 'Liens',
-    links: '[Guide de configuration](https://demo.zira.pw)\n[Serveur Discord d\'Aide](https://zira.pw/support)\n[Tableau de Bord](https://zira.pw)\n[Donation](https://www.patreon.com/HazedSPaCEx)\n[Traduire Zira](https://github.com/HazedSPaCEx/Zira-Translations)',
+    links: '[Guide de configuration](https://demo.zira.pw)\n[Serveur Discord d\'Aide](https://zira.pw/support)\n[Tableau de Bord](https://zira.pw)\n[Get Premium](https://zira.pw/premium)\n[Traduire Zira](https://github.com/HazedSPaCEx/Zira-Translations)',
     news: 'Nouveautés',
   },
   prefix: {
@@ -75,6 +76,9 @@ module.exports = {
     submitChannel: 'Salon d\'envoi des suggestions:',
     prefix: 'Préfix:',
     setPrefix: 'Changez le préfix avec la commande',
+    premium: 'Premium:',
+    expire: 'Expires ',
+    buy: 'Buy [Premium](https://zira.pw/premium)',
   },
   channel: {
     help: 'channel #channel** ~~-~~ définit le salon qui va être utilisé',
@@ -101,7 +105,8 @@ module.exports = {
   toggle: {
     help: 'toggle [emoji] [@role | nom du rôle]** ~~-~~ ajouter un rôle à un émoji sur le message configuré',
     image: 'https://stuff.zira.pw/files/1524932965273.gif',
-    /* I will replace this with a gif that is fast as my internet and laptop is slow */
+    limit: 'You have reached the limit of 9 toggled roles. You can increase this limit to 18 by [donating](https://zira.pw/premium)',
+    limit18: 'You have reached the limit of 18 toggled roles.',
   },
   perm: {
     noPerm: 'Vous devez être le propriétaire du serveur ou posséder la permission `Gérer les rôles` pour utiliser ces commandes.',
