@@ -105,7 +105,7 @@ module.exports = {
   toggle: {
     help: 'toggle [emoji] [@rol | nombre del rol]** ~~-~~ añade un rol con un emoji al mensaje establecido',
     image: 'https://stuff.zira.pw/files/1524932965273.gif',
-    limit: 'Haz alcanzado el límite de 12 roles alternables. You can get unlimited toggled roles by [donando](https://zira.pw/premium)',
+    limit: 'Haz alcanzado el límite de 12 roles alternables. Puedes obtener roles alternables ilimitados [donando](https://zira.pw/premium)',
   },
   perm: {
     noPerm: 'Tienes que ser el dueño del servidor o tener el permiso `Administrar Roles` para usar estos comandos.',
