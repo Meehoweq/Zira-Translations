@@ -76,8 +76,7 @@
       "channel": "Por favor establece un canal primero",
       "nomessage": "Por favor establece un mensaje primero",
       "same": "Ese emoji o rol ya está establecido en ese mensaje",
-      "limit": "Haz alcanzado el límite de 9 roles alternables.<br>Puedes incrementar el límite de tu servidor <a href=\"/premium\">comprando premium</a>",
-      "limitPremium": "Haz alcanzado el límite de 18 roles alternables"
+      "limit": "Haz alcanzado el límite de 12 roles alternables.<br>Puedes incrementar el límite de tu servidor <a href=\"/premium\">comprando premium</a>"
     }
   },
   "guide": {
@@ -100,7 +99,7 @@
     "amount":"Cantidad. Cada $2 son 30 días",
     "guild":"Servidor",
     "buy": "Comprar",
-    "features":"<li>18 roles alternables en lugar de 9</li><li>Poder establecer un canal de envío de sugerencias</li><li>Acceso anticipado a nuevas características</li><li>Más por venir</li>",
+    "features":"<li>Unlimited toggled roles instead of 12</li><li>Poder establecer un canal de envío de sugerencias</li><li>Acceso anticipado a nuevas características</li><li>Más por venir</li>",
     "guilds": "Servidores Premium"
   }
 }

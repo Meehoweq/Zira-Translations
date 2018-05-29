@@ -76,8 +76,7 @@
       "channel": "Please set a channel first",
       "nomessage": "Please set a message first",
       "same": "That emoji or role is already set on that message",
-      "limit": "You have reached the limit of 9 toggled roles.<br>You can increase your guilds limit by <a href=\"/premium\">purchasing premium</a>",
-      "limitPremium": "You have reached the limit of 18 toggled roles"
+      "limit": "You have reached the limit of 12 toggled roles.<br>You can increase your guilds limit by <a href=\"/premium\">purchasing premium</a>"
     }
   },
   "guide": {
@@ -100,7 +99,7 @@
     "amount":"Amount. Every $2 is 30 days",
     "guild":"Guild",
     "buy": "Buy",
-    "features":"<li>18 toggled roles instead of 9</li><li>Access to set a submit channel</li><li>Early access to new features</li><li>More to come</li>",
+    "features":"<li>Unlimited toggled roles instead of 12</li><li>Access to set a submit channel</li><li>Early access to new features</li><li>More to come</li>",
     "guilds": "Premium Guilds"
   }
 }
